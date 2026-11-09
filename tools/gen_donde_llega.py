@@ -62,7 +62,7 @@ pins = ''.join(PIN.format(s=46, x=f'{x:.0f}', y=f'{y:.0f}') for x, y in P.values
 labels = ''.join(f'<div style="position:absolute;left:{x+18:.0f}px;top:{y-6:.0f}px;font-weight:700;font-size:22px;color:#fff;text-shadow:0 2px 8px #0F2A33">{n}</div>'
                  for n, (x, y) in P.items())
 pages[1] = f'''<div class="glow" style="right:-300px;top:-250px"></div>
-<div class="t"><span class="k tq">CASOS REALES</span><h1>¿Hasta dónde<br><span>llega un GPS Fácil?</span></h1>
+<div class="t"><span class="k tq">CASOS REALES</span><h1>¿Hasta dónde<br><span>llega GPS Fácil?</span></h1>
 <p>Más lejos de lo que pensás. Deslizá →</p></div>
 <div class="card" style="top:540px;height:640px;background:#0F2A33;box-shadow:none">
 <div style="position:absolute;left:0;top:50px;width:{W}px;height:{H}px"><svg width="{W}" height="{H}">{svg}{arcs}</svg>{pins}{labels}</div></div>
